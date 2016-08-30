@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "3e6393cf-4fa6-40b8-9a36-8d8f4de67c05",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "3e6393cf-4fa6-40b8-9a36-8d8f4de67c05",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Odatabatcher" },
+    "description": { "default": "odatabatcher description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Odatabatcher"
+    }
+  }]
+}

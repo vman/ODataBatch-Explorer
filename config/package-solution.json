@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "odata-batcher-client-side-solution",
+    "id": "e64f8436-9da5-4d26-8174-cde9d6b415e1",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "odata-batcher.spapp"
+  }
+}
