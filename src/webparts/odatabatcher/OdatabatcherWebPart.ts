@@ -35,7 +35,6 @@ export default class OdatabatcherWebPart extends BaseClientSideWebPart<IOdatabat
       </div>`;
 
       this._makeODataBatchRequest();
-
   }
 
   private _makeODataBatchRequest(): void {
@@ -57,7 +56,7 @@ export default class OdatabatcherWebPart extends BaseClientSideWebPart<IOdatabat
     // Queue a request to get all the list titles in the current web
     const getLists: Promise<Response> = odataBatch.get(`${webAbsoluteUrl}/_api/web/lists?$select=Title`);
 
-    // Query a request to create a list in the current web.
+    // Queue a request to create a list in the current web.
     // POST requests do not work yet due to a bug in the framework : https://github.com/SharePoint/sp-dev-docs/issues/107
     // const postBody: Object = { __metadata: { type: 'SP.List' }, Title: "Developer workbench", BaseTemplate: 100 };
     // const reqHeaders: Headers = new Headers();
